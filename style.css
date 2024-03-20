@@ -1,13 +1,15 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{ 
     margin: 0;
     padding: none;
     box-sizing: border-box;
 }
 
-  body{
+body{
     background-color: #f2f2f2;
     font-size: 16px;
-     font-family: "Open Sans", sans-serif;
+    font-family: "Cardo", serif;
 }
 
 .contenedor{
@@ -38,7 +40,8 @@
 }
   
 .negrita{
-  font-weight: bold;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .header_boton{
@@ -96,9 +99,14 @@
   align-items: center;
   justify-content: center;
   height: 300px;
-  gap: 30px;
+  gap: 20px;
   background-image: url(Grupo_1-removebg-preview.png);
   background-repeat: no-repeat;
+}
+
+.grupo__2 h1{
+  font-weight: bold;
+  font-size: 50px;
 }
 
 .grupo__2 a {
@@ -132,6 +140,50 @@
 .grupo__3{
   padding-top: 400px;
 }
+
+.grupo__3 div {
+  margin-bottom: 20px; 
+}
+
+.grupo__3 img {
+  display: block; 
+  margin: 0 auto; 
+  max-width: 100%;
+  padding-top: 80px;
+}
+
+.grupo__3 p {
+  text-align: center; 
+  color: #000;
+  font-weight: bold;
+  font-size: 20px; 
+  margin-top: 10px;
+  padding-top: 80px;
+}
+
+.contenedor__4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-izquierdo, .contenedor-derecho {
+  flex: 1;
+}
+
+.contenedor-derecho {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contenedor-derecho img, .contenedor-derecho h1, .contenedor-derecho p, .contenedor-derecho i {
+  margin: 10px 0; 
+}
+
+.bi-arrow-right {
+  font-size: 5em; 
+}
+
 
 
 @media (max-width: 600px) {
